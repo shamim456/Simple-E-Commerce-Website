@@ -1,0 +1,268 @@
+/* Import Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Common Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    width: 100%;
+}    
+.container{
+    width: 80%;
+    border-radius: 5px;
+}
+.button{
+    text-align: end;  
+    margin-right: 145px;
+}
+.button a{
+    color: #E02C6D;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+/* nav styling */
+header{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.menu-bar{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    width: 40%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.nav-icon{
+    margin-right: 10px;
+}
+.margin-top{
+    margin-top: 16px;
+}
+
+
+/* Banner Section Styling  */
+
+.banner-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-wrapper{
+    width: 90%;
+    background-color: #FFFF;
+    border-radius: 5px; 
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+
+
+.banner-title{
+    width: 582px;
+}
+.banner-title h1{
+    font-size: 52px;
+}
+.banner-title h3{
+    font-size: 16px;
+}
+.banner-title button{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: #FFFF;
+    border: none;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    width: 582px;
+    height: 582px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 1px solid rgb(214, 204, 204);
+}
+.banner-img img{
+    width: 475px;
+    height: 475px;
+} 
+
+
+/* Website Link Group Styling */
+
+.website-link-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.website-icon{
+    height: 80px;
+    border: 1px solid rgb(228, 220, 220);
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+.website-icon img{
+    margin-left: 20px;
+}
+
+
+
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: end;
+}
+.popular-collection-container{
+    margin-top: 100px;
+}
+.popular-collection{
+    display: flex;
+    justify-content: center;
+
+}
+.Card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    width: 329px;
+    height: 476px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.card-content{
+    margin-top: 15px;
+}
+.card img{
+    width: 300px;
+    height: 256px;
+}
+.rating{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E02C6D;
+}
+.rating p{
+    color: #3A3A3A;
+}
+.card h1{
+    font-size: 28px;
+    margin-top: 16px;
+
+}
+.card h2{
+    font-size: 24px;
+    margin-top: 6px;
+}
+.card h3{
+    font-size: 14px;
+}
+
+
+
+.Featured-products-section{
+    display: flex;
+    justify-content: center;
+}
+.Featured-products-content{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.Featured-products-content img{
+    width: 404px;
+    height: 270px;
+}
+.Featured-products-content h1{
+    font-size: 33px;
+}
+.Featured-products-content p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+.Featured-products-content a{
+    background-color: #E02C6D;
+    color: #FFFF;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+
+}
+
+
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    text-align: center;
+}
+.icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(159, 165, 170);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.footer-icon{
+    font-size: 17px;
+    color: #FFFF;
+}
