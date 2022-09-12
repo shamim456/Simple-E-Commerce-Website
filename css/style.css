@@ -34,6 +34,16 @@ header{
     display: flex;
     justify-content: center;
 }
+.mobile-view-menu-icon{
+    display: none;
+}
+.mobile-view-menu-icon a{
+    color: #3A3A3A;
+}
+.website-logo   a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
 .menu-bar{
     width: 90%;
     height: 80px;
@@ -87,6 +97,9 @@ header{
 .banner-title{
     width: 582px;
 }
+.banner-title button{
+    cursor: pointer;
+}
 .banner-title h1{
     font-size: 52px;
 }
@@ -104,7 +117,6 @@ header{
 .banner-img{
     display: flex;
     justify-content: center;
-    margin-left: 25px;
     width: 582px;
     height: 582px;
     background-color: aliceblue;
@@ -150,6 +162,10 @@ header{
 .popular-collection-container{
     margin-top: 100px;
 }
+.popular-collection-container a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
 .popular-collection{
     display: flex;
     justify-content: center;
@@ -165,7 +181,7 @@ header{
     width: 329px;
     height: 476px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -265,4 +281,113 @@ footer{
 .footer-icon{
     font-size: 17px;
     color: #FFFF;
+}
+
+
+
+
+
+
+
+
+/*------------------------------
+        Responsive Design
+--------------------------------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+.mobile-view-menu-icon{
+    display: block;
+}    
+.menu{
+    display: none;
+}
+.menu .show-icon{
+    display: block;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    margin-bottom: 20px;
+}
+.banner-title h1{
+    font-size: 28px;
+    text-align: center;
+}
+.banner-img{
+    margin-bottom: 14px;
+    order: 1;
+    width: 100%;
+    height: 375px;
+}
+.banner-img img{
+    width: 375px;
+    height: 375px;
+}
+.website-link-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.website-icon{
+    width: 276px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.website-icon img{
+    width: 45px;
+    height: 18px;
+} 
+.popular-collection-container{
+    width: 100%;
+}
+.Card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.card{
+    width: 350px;
+}
+.card-content img{
+    width: 100%;
+}
+.Featured-products-content{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Featured-products-content img{
+    width: 100%;
+    order: 2;
+}
+.Featured-products-info{
+    order: 1;
+    width: 95%;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+.footer-wrapper{
+    width: 95%;
+}
+
 }
